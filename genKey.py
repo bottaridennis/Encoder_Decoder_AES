@@ -6,4 +6,4 @@ def generate_key():
 
 key = generate_key()
 
-print('Your key is: ' ,key )
+print('Your key is: ' ,key.hex() )
